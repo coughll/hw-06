@@ -1,0 +1,75 @@
+h1 {
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(135, 0, 75), rgb(85, 15, 125));
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+}
+div {
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    font-family: 'Roboto';
+}
+form {
+    margin: 10px 2.5%;
+    padding-top: 7px;
+    width: 95%;
+    border-bottom: 2px solid lightgrey;
+    height: 40px;
+}
+input {
+    margin: auto;
+    width: 90%;
+    height: 16px;
+    padding: 0px 5px;
+    border: 1px solid rgb(216, 193, 222);
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+#submit {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+    top: 2px;
+    left: 5%;
+    width: 0px;
+    color: slateblue;
+}
+p {
+    margin: 10px 2.5%;
+    width: 95%;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+i {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 25px;
+    width: 2%;
+    padding: auto;
+}
+.fa-times {
+    float: right;
+    position: relative;
+    margin-top: 4px;
+    right: 2%;
+    color: slateblue;
+}
+span {
+    width: 88%;
+}
+
+@media only screen and (min-width: 600px) {
+    div {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+        border: 2px solid rgb(216, 173, 202);
+        border-radius: 10px;
+    }
+  }
